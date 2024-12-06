@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form addfieldprefix="Empvaibhav\Component\Employee\Administrator\Field">
+  <fieldset>
+    <field name="id" type="text" readonly="true" class="readonly" default="0" description="JGLOBAL_FIELD_ID_DESC"/>
+    <field name="state" default="1" type="list" label="JSTATUS" description="JFIELD_PUBLISHED_DESC" class="inputbox" size="1">
+      <option value="1">JPUBLISHED</option>
+      <option value="0">JUNPUBLISHED</option>
+      <option value="2">JARCHIVED</option>
+      <option value="-2">JTRASHED</option>
+    </field>
+    <field name="ordering"/>
+    <field name="fname" required="true" message="Enter first name" label="COM_EMPLOYEE_FORM_LBL_EMPLOYEE_FNAME" description="COM_EMPLOYEE_FORM_DESC_EMPLOYEE_FNAME" hint="COM_EMPLOYEE_FORM_LBL_EMPLOYEE_FNAME"/>
+    <field name="lname" required="true" message="Enter first name" label="COM_EMPLOYEE_FORM_LBL_EMPLOYEE_LNAME" description="COM_EMPLOYEE_FORM_DESC_EMPLOYEE_LNAME" hint="COM_EMPLOYEE_FORM_LBL_EMPLOYEE_LNAME"/>
+    <field name="email" required="true" message="Enter first name" label="COM_EMPLOYEE_FORM_LBL_EMPLOYEE_EMAIL" description="COM_EMPLOYEE_FORM_DESC_EMPLOYEE_EMAIL" hint="COM_EMPLOYEE_FORM_LBL_EMPLOYEE_EMAIL"/>
+    <field name="phone" label="COM_EMPLOYEE_FORM_LBL_EMPLOYEE_PHONE" description="COM_EMPLOYEE_FORM_DESC_EMPLOYEE_PHONE" hint="COM_EMPLOYEE_FORM_LBL_EMPLOYEE_PHONE"/>
+    <field name="version_note" type="text" label="JGLOBAL_FIELD_VERSION_NOTE_LABEL" description="JGLOBAL_FIELD_VERSION_NOTE_DESC" class="inputbox" size="45" labelclass="control-label"/>
+  </fieldset>
+</form>
